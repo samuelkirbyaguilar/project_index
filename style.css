@@ -1,0 +1,19 @@
+@font-face {
+  font-family: vcrMono;
+  src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+* {
+  font-family: vcrMono;
+}
+
+/* credit goes to https://css-tricks.com/perfect-full-page-background-image/ */
+html { 
+  /* set background image */
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(./images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
